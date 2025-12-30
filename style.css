@@ -1,0 +1,12 @@
+/* Correct @import syntax (use quotes and parentheses) */
+@import url("https://www.fontspace.com/marina-sundaland-font-f46273");
+
+/* Use the imported font (adjust the font-family name if the vendor specifies another one) */
+body {
+    font-family: "Marina Sundaland", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
