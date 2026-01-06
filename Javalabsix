@@ -93,3 +93,16 @@ Events (clicks, keyboard)
 
 An operating system ( ex - windows) is software that manages a computer’s hardware and allows programs to run.
 The CPU (Central Processing Unit) is the part (Brain) of a computer that processes instructions and performs calculations.
+
+Answer Lab 6 
+What are variables in JavaScript?
+	Variables are named containers used to store and manage data in JavaScript
+
+What does it mean to declare a variable?
+	Declaring a variable means creating it and giving it a name so it can be used in the program
+
+What is an “assignment” operator, and what does it do?
+	An assignment operator is a symbol that puts a value into a variable.
+
+What is information received from the user called?
+	Information received from the user is called input.
