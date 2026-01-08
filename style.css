@@ -5,11 +5,21 @@
 body {
     font-family: "Marina Sundaland", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
-img {
+img { 
     display: block;
     margin-left: auto;
     margin-right: auto;
 
     width: 50%;
     border-radius: 15px;
-}
+}nav {
+    display: flex;
+    gap: 20px; /* space between tabs */
+  }
+    nav ul {
+        list-style-type: none; /* remove bullet points */
+        margin: 25;
+        padding: 10px 15px;
+        border-radius: 15px;
+    }
+  
