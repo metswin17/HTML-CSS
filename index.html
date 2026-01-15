@@ -10,11 +10,14 @@
             <title>Fishing Holes & Hideaways</title>
 </head>
 
-<body> 
+
     <body style="border: 15px solid rgb(0, 255, 191);">
 
     <input type="text" id="nameInput" placeholder="Enter your name">
     <button onclick="showGreeting()">Submit</button>
+    <button onclick="clearGreeting()">Clear</button>
+    <button onclick="changeBackground()">Change Background</button>
+
   
     <p id="greeting"></p>
   
@@ -33,6 +36,9 @@
     </h1>
     
     <link rel="stylesheet" href="style.css">
+    <button onclick="addImageBorder()">Add Image Border</button>
+    <button onclick="removeImageBorder()">Remove Image Border</button>
+    
 
                     <img 
                     
@@ -41,13 +47,46 @@
                     
 " alt="">
         
-            <h5>Rivers</h5><a href="https://mckenzierivertrail.com/">click here</a>
-                
-                <h5>Streams</h5><a href="https://www.citizen-times.com/embed/video/11363305/">click here</a>
+<section class="card-container">
 
-                    <h5>Lakes</h5><a href="https://traveloregon.com/things-to-do/destinations/lakes-reservoirs/">click here</a>
+    <a href="https://mckenzierivertrail.com/"
+   class="card"
+   target="_blank"
+   rel="noopener noreferrer">
+  <h3>Rivers</h3>
+  <p>Find flowing freshwater fishing spots</p>
+</a>
 
-            <h5>Shores</h5><a href="https://myodfw.com/articles/oregon-marine-shore-fishing">click here</a>
+  
+    <a href="https://www.citizen-times.com/embed/video/11363305/" 
+    class="card"
+   target="_blank"
+   rel="noopener noreferrer">
+      <h3>Streams</h3>
+      <p>Explore quiet stream fishing areas</p>
+    </a>
+  
+    <a href="https://traveloregon.com/things-to-do/destinations/lakes-reservoirs/" 
+    class="card"
+   target="_blank"
+   rel="noopener noreferrer">
+      <h3>Lakes</h3>
+      <p>Discover lakes and reservoirs</p>
+    </a>
+  
+    <a href="https://myodfw.com/articles/oregon-marine-shore-fishing" 
+    class="card"
+   target="_blank"
+   rel="noopener noreferrer">
+      <h3>Shores</h3>
+      <p>Fish along coastal shorelines</p>
+    </a>
+  
+  </section>
+  
+
+         
+
 
             <script src="app.js"></script>
 </body>
