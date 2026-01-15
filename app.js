@@ -27,6 +27,23 @@ document.getElementById("submitBtn").addEventListener("click", function () {
   showGreeting();
   this.textContent = "Submitted!";
 });
+const fishIcons = document.querySelectorAll(".fish");
+const ratingResult = document.getElementById("ratingResult");
+
+fishIcons.forEach(fish => {
+  fish.addEventListener("click", () => {
+    const rating = fish.getAttribute("data-value");
+
+    fishIcons.forEach(icon => {
+      icon.classList.remove("active");
+      if (icon.getAttribute("data-value") <= rating) {
+        icon.classList.add("active");
+      }
+    });
+
+    ratingResult.textContent = `You rated this ${rating} fish 🐟`;
+  });
+});
 
 
 
