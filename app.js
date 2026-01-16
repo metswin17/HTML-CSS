@@ -100,5 +100,6 @@ function displayResults(answers) {
     <p><strong>Fish type:</strong> ${answers[1]}</p>
     <p><strong>Length:</strong> ${answers[2]} inches</p>
     <p><strong>Weight:</strong> ${answers[3]} lbs</p>
+    <p><strong>Nice catch! 🐟</strong></p>
   `;
 }
